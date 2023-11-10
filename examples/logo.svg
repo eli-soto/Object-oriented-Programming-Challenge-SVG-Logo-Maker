@@ -1,0 +1,18 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+              <style>
+                text {
+                  font-family: Arial;
+                  font-size: 40px;
+                  fill: #fff;
+                }
+
+                polygon {
+                  fill: #000fff;
+                  stroke: black;
+                  stroke-width: 2;
+                }
+              </style>
+
+              <polygon points="150,18 244,182 56,182"/>
+              <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle">123</text>
+            </svg>

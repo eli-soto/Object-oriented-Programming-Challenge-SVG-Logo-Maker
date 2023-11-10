@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Square render method should return correct SVG string 1`] = `
+"<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+              <style>
+                text {
+                  font-family: Arial;
+                  font-size: 40px;
+                  fill: purple;
+                }
+
+                rect {
+                  fill: red;
+                  stroke: black;
+                  stroke-width: 2;
+                }
+              </style>
+
+              <rect x="30" y="30" width="240" height="140"/>
+              <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle">123</text>
+            </svg>"
+`;

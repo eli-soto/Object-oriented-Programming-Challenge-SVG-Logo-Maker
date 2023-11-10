@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circle render method should return correct SVG string 1`] = `
+"<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+              <style>
+                text {
+                  font-family: Arial;
+                  font-size: 40px;
+                  fill: green;
+                }
+
+                circle {
+                  fill: blue;
+                  stroke: black;
+                  stroke-width: 2;
+                }
+              </style>
+
+              <circle cx="150" cy="100" r="90"/>
+              <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle">XYZ</text>
+            </svg>"
+`;
